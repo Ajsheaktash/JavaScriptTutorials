@@ -1,0 +1,11 @@
+var x=[23, "ayse",52];
+//document.getElementById("demo").innerHTML=x[2];
+document.getElementById("demo").innerHTML=x.length;
+var y=[];
+y[0]=85;
+y[1]="ahmet";
+y[2]="Elif";
+//document.getElementById("demo2").innerHTML=y[2];
+document.getElementById("demo2").innerHTML=y.sort();
+var z=new Array(96,"Anna");
+document.getElementById("demo3").innerHTML=z;

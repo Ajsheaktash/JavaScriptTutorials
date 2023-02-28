@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+.cc{
+    color:rgb(32, 3, 35);
+}
+
+#pid{
+    font-size: 100px;
+}
+
+</style>
+
+
+</head>
+<body>
+    <p id="pid" class="cc"> Hello  Id </p>
+    <p   class="cc"> Hello Dear </p>
+    <p  class="cc"> Hello </p>
+    <p   class="cc"> Hello Dear </p>
+    <button onclick="Run()"> Run </button>
+    <button onclick="Run2()"> Run with id </button>
+    <script>
+function Run(){
+var x=document.getElementsByClassName("cc");
+x[3].innerHTML="Dom Class name";
+}
+function Run2(){
+    document.getElementById("pid").innerHTML="Changed by id";
+    
+    }
+    </script>
+</body>
+</html>
